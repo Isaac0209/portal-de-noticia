@@ -1,0 +1,59 @@
+
+
+.imagem-home {
+  margin: 0px;
+   width: 843px; 
+   height: 400px;
+   max-width: 843px; 
+   max-height: 400px;
+}
+/* PC */
+@media(min-width:992px){
+.block {
+	width: 55vw;
+} 
+p {
+	width: 55vw;
+}
+.anunciodiv img{
+margin-top: -119px;
+    width: 491px;
+    height: 139px;
+    margin-left: -255px;
+}
+}
+/* celulares */
+@media(max-width:992px){
+	.anunciodiv img{
+		
+margin-top: -119px;
+    width: 336px;
+    height: 139px;
+    margin-left: -153px;
+}
+.block {
+	width: 95vw;
+} 
+p {
+		padding-left: 10px;
+	padding-right: 10px;
+	width: 100vw;
+}
+
+.imagem-home {
+	height: 280px;
+	width: 100vw;
+}
+.anuncio {
+	text-align: center;
+	width: 100vw;
+}
+.col-sm-6 {
+	
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+	}

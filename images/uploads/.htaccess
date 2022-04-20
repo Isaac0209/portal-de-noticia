@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCOND %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?pagina=$1
+
+
+RewriteEngine on
+RewriteBase /
+RewriteRule ^feed.rss$ /rssfeed.php [L]
